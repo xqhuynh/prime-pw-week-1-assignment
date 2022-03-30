@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-</head>
-<body>
-    <!-- Create a header element  -->
-
-    <!-- Inside the header, add an <h1> element containing your name -->
-
-    <!-- Include an image -->
-
-    <!-- Create an unordered list with 3 list items of fun facts about you -->
-
-    <!-- Create a footer element -->
-
-    <!-- Inside your footer, put a <p> element with your favorite quote -->
-</body>
+    <script src="./helloWorld.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Create a header element  -->
+      <header>
+        <!-- Inside the header, add an <h1> element containing your name -->
+        <h1>Savon Huynh</h1>
+      </header>
+      <!-- Include an image -->
+      <div class="savon-container">
+        <img
+          class="myPhoto"
+          src="/prime-pw-week-1-assignment/images/savon.jpeg"
+          alt="Savon's img"
+        />
+        <div class="activities">
+          <!-- Create an unordered list with 3 list items of fun facts about you -->
+          <h4>Some fun things I enjoy doing in my spare time include:</h4>
+          <ul>
+            <li>Playing sports</li>
+            <li>Hosting dinner parties</li>
+            <li>Traveling to different countries</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Create a footer element -->
+      <footer>
+        <!-- Inside your footer, put a <p> element with your favorite quote -->
+        <figure>
+          <blockquote>
+            <p class="quote">
+              I must lose myself in action, lest I wither in despair.
+            </p>
+          </blockquote>
+          <figcaption>-Tennyson</figcaption>
+        </figure>
+      </footer>
+    </div>
+  </body>
 </html>

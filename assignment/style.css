@@ -1,11 +1,51 @@
-/* Give your page a fun background color */
+body {
+  margin: 0;
+  padding: 0;
+  /* Give your page a fun background color */
+  background-color: rgb(219, 225, 226);
+}
 
 /* Make the header and footer a different color from the background */
+header {
+  background-color: bisque;
+  margin-bottom: 25px;
+  padding: 15px 0px 15px 25px;
+  /* Align the h1 containing your name in the center of the header*/
+  text-align: center;
+}
 
-/* Align the h1 containing your name in the center of the header*/
+footer {
+  background-color: bisque;
+  margin-top: 50px;
+  text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+.quote {
+  color: blue;
+  font-style: italic;
+}
 
 /* Put a border around your image */
+.myPhoto {
+  border: 3px solid green;
+  width: 250px;
+}
 
 /* Change the font-family of your list */
+.activities {
+  font-family: "Roboto", sans-serif;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+.savon-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+figure {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
